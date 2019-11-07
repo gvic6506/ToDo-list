@@ -1,0 +1,30 @@
+body {
+  background: rgb(0, 247, 255);
+}
+.container {
+  text-align: center;
+  border: 2px solid black;
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-bottom: 10px;
+
+  border: none;
+  background: transparent;
+  border-bottom: 1xp solid white;
+}
+.btn {
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 10px;
+}
+.btn:hover {
+  background: slategray;
+  color: #fff;
+}
